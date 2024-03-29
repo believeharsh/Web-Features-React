@@ -16,25 +16,37 @@ function Item({ name, isPacked }) {
 
   function Drink({ name }) {
     let part, caffeine, age;
-    if (name === 'tea') {
+    if (name === 'Tea') {
       part = 'leaf';
       caffeine = '15–70 mg/cup';
       age = '4,000+ years';
-    } else if (name === 'coffee') {
+    } else if (name === 'Coffee') {
       part = 'bean';
       caffeine = '80–185 mg/cup';
       age = '1,000+ years';
     }
+
+    // the same thing can be done by using ternory operator but you can choose whom you'd like to go with!
+
     return (
-      <section>
-        <h1>{name}</h1>
-        <dl>
-          <dt>Part of plant</dt>
-          <dd>{part}</dd>
-          <dt>Caffeine content</dt>
-          <dd>{caffeine}</dd>
-          <dt>Age</dt>
-          <dd>{age}</dd>
+      <section className="bg-slate-900 border-white border-1 px-2 py-2 text-white">
+        <h1 className="text-2xl font-mono">{name}</h1>
+        {
+            <hr/>
+        }
+        <dl className="border-dashed border-[1px] border-white mt-2 rounded-xl px-2 py-2">
+          <dt>Part of plant
+          <span> { " : " + part}</span>
+          </dt>
+        
+          <dt>Caffeine content
+          <span> { " : " + caffeine} </span>
+          </dt>
+     
+          <dt>Age
+          <span> { " : " + age}</span>
+          </dt>
+     
         </dl>
       </section>
     );
@@ -64,8 +76,8 @@ const Conditional = () => {
       
     // </div>
     <div>
-    <Drink name="tea" />
-    <Drink name="coffee" />
+    <Drink name="Tea" />
+    <Drink name="Coffee" />
   </div>
   )
 }
