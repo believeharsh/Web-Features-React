@@ -78,6 +78,7 @@ const Conditional = () => {
     <div>
     <Drink name="Tea" />
     <Drink name="Coffee" />
+    <Drink name="Tea"/>
   </div>
   )
 }
