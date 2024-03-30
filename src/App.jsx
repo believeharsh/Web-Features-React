@@ -4,6 +4,7 @@ import Conditional from './components/Conditional-Rendering/Conditional'
 import RenderingList from './components/Rendering-List/RenderingList'
 import PureComp from './components/PureComp/PureComp'
 import UseImmer from './components/UseImmer/UseImmer'
+import List from './components/Update-Obj-Inside-arr/List'
 
 
 const App = () => {
@@ -13,7 +14,8 @@ const App = () => {
     {/* <Conditional/> */}
     {/* <RenderingList/> */}
     {/* <PureComp/> */}
-    <UseImmer/>
+    {/* <UseImmer/> */}
+    <List/>
     </div>
   )
 }
