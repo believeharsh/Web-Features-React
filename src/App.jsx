@@ -5,6 +5,7 @@ import RenderingList from './components/Rendering-List/RenderingList'
 import PureComp from './components/PureComp/PureComp'
 import UseImmer from './components/UseImmer/UseImmer'
 import List from './components/Update-Obj-Inside-arr/List'
+import UseShoppingCart from './components/ShoppingCart/UseShoppingCart'
 
 
 const App = () => {
@@ -15,7 +16,8 @@ const App = () => {
     {/* <RenderingList/> */}
     {/* <PureComp/> */}
     {/* <UseImmer/> */}
-    <List/>
+    {/* <List/> */}
+    <UseShoppingCart/>
     </div>
   )
 }
