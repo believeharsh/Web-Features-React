@@ -8,6 +8,7 @@ import List from './components/Update-Obj-Inside-arr/List'
 import UseShoppingCart from './components/ShoppingCart/UseShoppingCart'
 
 
+
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
     {/* <UseImmer/> */}
     {/* <List/> */}
     <UseShoppingCart/>
+
     </div>
   )
 }
