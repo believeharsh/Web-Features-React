@@ -2,17 +2,17 @@ import { useState } from "react";
 
 const initialProducts = [
   {
-    id: 0,
+    id: 1,
     name: "Cheese",
     count: 1,
   },
   {
-    id: 1,
+    id: 2,
     name: "Milk",
     count: 5,
   },
   {
-    id: 2,
+    id: 3,
     name: "BreadPacket",
     count: 2,
   },
@@ -21,7 +21,7 @@ const initialProducts = [
 export default function ShoppingCart() {
   const [products, setproducts] = useState(initialProducts);
   const [name, setName] = useState('');
-  let nextid = 1 ; 
+  let nextid = 0; 
 
   function handleIncreaseClick(productId) {
     setproducts(
@@ -59,12 +59,12 @@ export default function ShoppingCart() {
    }
 
     const HandleAdd = () => {
-      const insertAt = 1; // Could be any index
+      const insertAt = 0; // Could be any index
       const nextArtists = [
         // Items before the insertion point:
         ...products.slice(0, insertAt),
         // New item:
-        { id: nextid++, name: name },
+        { id: nextid++, name: name , count:1},
         // Items after the insertion point:
         ...products.slice(insertAt)
       ];
