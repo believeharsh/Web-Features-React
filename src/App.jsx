@@ -9,6 +9,7 @@ import UseShoppingCart from './components/ShoppingCart/UseShoppingCart'
 
 
 
+
 const App = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const App = () => {
     {/* <UseImmer/> */}
     {/* <List/> */}
     <UseShoppingCart/>
+
 
     </div>
   )
