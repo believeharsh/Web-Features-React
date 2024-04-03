@@ -9,6 +9,9 @@ import UseShoppingCart from './components/ShoppingCart/UseShoppingCart'
 import Profile from './components/Contextapi/Profile'
 
 import { ContextProvider } from './components/Contextapi/MyContext'
+import Maincontainer from './components/To-do-app/Maincontainer'
+
+
 
 
 
@@ -17,7 +20,7 @@ const App = () => {
   return (
  
     <ContextProvider>
-    <Profile/>
+    {/* <Profile/> */}
        
     {/* <UseTooltip/> */}
     {/* <Conditional/> */}
@@ -26,6 +29,7 @@ const App = () => {
     {/* <UseImmer/> */}
     {/* <List/> */}
     {/* <UseShoppingCart/> */}
+    <Maincontainer/>
     </ContextProvider>
   
 
