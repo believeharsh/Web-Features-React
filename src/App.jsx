@@ -6,23 +6,30 @@ import PureComp from './components/PureComp/PureComp'
 import UseImmer from './components/UseImmer/UseImmer'
 import List from './components/Update-Obj-Inside-arr/List'
 import UseShoppingCart from './components/ShoppingCart/UseShoppingCart'
+import Profile from './components/Contextapi/Profile'
+
+import { ContextProvider } from './components/Contextapi/MyContext'
 
 
 
 
 const App = () => {
   return (
-    <div>
+ 
+    <ContextProvider>
+    <Profile/>
+       
     {/* <UseTooltip/> */}
     {/* <Conditional/> */}
     {/* <RenderingList/> */}
     {/* <PureComp/> */}
     {/* <UseImmer/> */}
     {/* <List/> */}
-    <UseShoppingCart/>
+    {/* <UseShoppingCart/> */}
+    </ContextProvider>
+  
 
-
-    </div>
+    
   )
 }
 
