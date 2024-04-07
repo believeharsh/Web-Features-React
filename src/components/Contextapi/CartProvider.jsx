@@ -7,6 +7,9 @@ const CartProvider = ({ children }) => {
     {id:1, name:"Rice", price:10},
     {id:2, name:"Wheet", price:5},
     {id:3, name:"Methi Dana", price:7},
+    {id:4, name:"Rice", price:10},
+    {id:5, name:"Wheet", price:5},
+    {id:6, name:"Methi Dana", price:7},
   ]);
 
   const addToCart = (item) => {

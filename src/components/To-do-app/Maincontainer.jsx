@@ -39,6 +39,10 @@ const Maincontainer = () => {
     const filteredTasks = tasks.filter((task) => task.id !== taskId);
     setTasks(filteredTasks);
   };
+  const editTask = (taskId, newText) => {
+  setTasks(tasks.map((task) => task.id === taskId ? {...task, text:newText} : task ))
+  };
+ 
 
   return (
     <>
@@ -50,6 +54,7 @@ const Maincontainer = () => {
             Tasks={tasks}
             toggleTaskCompletion={toggleTaskCompletion}
             deleteTask={deleteTask}
+            editTask={editTask}
           />
         </div>
       </div>
