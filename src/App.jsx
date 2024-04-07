@@ -6,10 +6,9 @@ import PureComp from './components/PureComp/PureComp'
 import UseImmer from './components/UseImmer/UseImmer'
 import List from './components/Update-Obj-Inside-arr/List'
 import UseShoppingCart from './components/ShoppingCart/UseShoppingCart'
-import Profile from './components/Contextapi/Profile'
-
-import { ContextProvider } from './components/Contextapi/MyContext'
+import CartProvider from './components/Contextapi/CartProvider'
 import Maincontainer from './components/To-do-app/Maincontainer'
+import ShoppingCart from './components/Contextapi/ShoppingCart'
 
 
 
@@ -19,8 +18,8 @@ import Maincontainer from './components/To-do-app/Maincontainer'
 const App = () => {
   return (
  
-    <ContextProvider>
-    {/* <Profile/> */}
+    <CartProvider>
+    <ShoppingCart/>
        
     {/* <UseTooltip/> */}
     {/* <Conditional/> */}
@@ -29,8 +28,8 @@ const App = () => {
     {/* <UseImmer/> */}
     {/* <List/> */}
     {/* <UseShoppingCart/> */}
-    <Maincontainer/>
-    </ContextProvider>
+    {/* <Maincontainer/> */}
+    </CartProvider>
   
 
     
