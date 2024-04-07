@@ -8,9 +8,15 @@ const Tasklist = ({ toggleTaskCompletion, deleteTask, Tasks , editTask}) => {
     setEditedTaskText(event.target.value);
   };
   const handleEditSubmit = (taskId) => {
-    editTask(taskId, EditedTaskText);
-    setEditTaskId(null);
-    setEditedTaskText('');
+    if(EditedTaskText !== ''){
+      editTask(taskId, EditedTaskText);
+      setEditTaskId(null);
+      setEditedTaskText('');
+    }
+    else{
+      alert("Input filed can't be empty")
+    }
+    
   };
   const handleKeyPress = (event, taskId) => {
     if (event.key === 'Enter') {
@@ -30,7 +36,7 @@ const Tasklist = ({ toggleTaskCompletion, deleteTask, Tasks , editTask}) => {
                 type="text"
                 value={EditedTaskText}
                 onChange={handleEditInputChange}
-                onKeyPress={(event) => handleKeyPress(event, task.id)}
+                onKeyDown={(event) => handleKeyPress(event, task.id)}
                 className="border  rounded px-2 py-1"
               />
             ) : (

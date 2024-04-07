@@ -40,8 +40,8 @@ const Maincontainer = () => {
     setTasks(filteredTasks);
   };
   const editTask = (taskId, newText) => {
-  setTasks(tasks.map((task) => task.id === taskId ? {...task, text:newText} : task ))
-  };
+   setTasks(tasks.map((task) => task.id === taskId ? {...task, text:newText} : task ))
+ };
  
 
   return (
