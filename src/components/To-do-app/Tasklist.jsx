@@ -31,6 +31,7 @@ const Tasklist = ({ toggleTaskCompletion, deleteTask, Tasks , editTask}) => {
             const isEditing = task.id === EditTaskId ;
             return (
               <li key={task.id} className={`flex items-center justify-between p-2 border-b ${task.completed ? "bg-gray-200" : ""}`}>
+              
             {isEditing ? (
               <input
                 type="text"

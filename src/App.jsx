@@ -13,7 +13,7 @@ import ShoppingCart from "./components/Contextapi/ShoppingCart";
 const App = () => {
   return (
     <CartProvider>
-      {/* <ShoppingCart /> */}
+      <ShoppingCart />
 
       {/* <UseTooltip/> */}
       {/* <Conditional/> */}
@@ -22,7 +22,7 @@ const App = () => {
       {/* <UseImmer/> */}
       {/* <List/> */}
       {/* <UseShoppingCart/> */}
-      <Maincontainer/>
+      {/* <Maincontainer/> */}
     </CartProvider>
   );
 };
