@@ -13,16 +13,10 @@ import ShoppingCart from "./components/Contextapi/ShoppingCart";
 const App = () => {
   return (
     <CartProvider>
-      <ShoppingCart />
-
-      {/* <UseTooltip/> */}
-      {/* <Conditional/> */}
-      {/* <RenderingList/> */}
-      {/* <PureComp/> */}
-      {/* <UseImmer/> */}
-      {/* <List/> */}
       {/* <UseShoppingCart/> */}
-      {/* <Maincontainer/> */}
+      {/* <List/> */}
+      {/* <UseImmer/> */}
+      <RenderingList/>
     </CartProvider>
   );
 };
