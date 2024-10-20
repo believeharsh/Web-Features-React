@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Data from "../../DummyData/DummyData";
+import AppsHeader from "../../components/AppsHeader";
 
 const MultipleSelection = () => {
   const [singleSelect, setsingleSelect] = useState(null);
@@ -16,11 +17,13 @@ const MultipleSelection = () => {
     if (indexOfCurrentId === -1) copyOfMultiple.push(currentId);
     else copyOfMultiple.splice(indexOfCurrentId, 1);
     setmultiple(copyOfMultiple);
-    // console.log(multiple);
+ 
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <>
+      <AppsHeader headertext="Accordian "/>
+      <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-4">
         <button
           className={`${
@@ -86,6 +89,8 @@ const MultipleSelection = () => {
         )}
       </div>
     </div>
+    </>
+   
   );
 };
 
