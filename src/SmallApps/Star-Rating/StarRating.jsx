@@ -19,9 +19,9 @@ const StarRating = ({ numOfStars = 5 }) => {
   };
 
   return (
-    <>
+    <div className='py-6 border-b-2 border-black'>
       <AppsHeader headertext="Star Rating" />
-      <div className="container mx-auto p-4 bg-blue-500 rounded-lg shadow-lg max-w-md mt-6">
+      <div className="container mx-auto p-4 bg-blue-500 rounded-lg shadow-lg mt-6">
         <div className="flex justify-center items-center space-x-2 py-6">
           {[...Array(numOfStars)].map((_, index) => {
             index += 1;
@@ -39,7 +39,7 @@ const StarRating = ({ numOfStars = 5 }) => {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

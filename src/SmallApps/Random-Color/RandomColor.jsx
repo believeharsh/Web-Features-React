@@ -33,7 +33,7 @@ const RandomColor = () => {
   }, [typeofColor]);
 
   return (
-    <>
+    <div className="py-2 border-b-2 border-black">
       <AppsHeader headertext={"Random Color"}/>
       <div className="container mx-auto px-4 py-8">
         <div
@@ -76,7 +76,7 @@ const RandomColor = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

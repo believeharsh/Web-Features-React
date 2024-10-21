@@ -21,7 +21,7 @@ const MultipleSelection = () => {
   };
 
   return (
-    <>
+    <div className="py-1 border-b-2 border-black">
       <AppsHeader headertext="Accordian "/>
       <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-4">
@@ -89,7 +89,7 @@ const MultipleSelection = () => {
         )}
       </div>
     </div>
-    </>
+    </div>
    
   );
 };
