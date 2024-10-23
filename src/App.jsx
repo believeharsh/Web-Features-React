@@ -4,23 +4,31 @@ import RandomColor from "./SmallApps/Random-Color/RandomColor";
 import StarRating from "./SmallApps/Star-Rating/StarRating";
 import ImageSlider from "./SmallApps/Image-Slider/ImageSlider";
 import LoadMore from "./SmallApps/LoadMore-Button/LoadMore";
+import NestedMenus from "./SmallApps/Nested-Menus/NestedMenus";
+import DataMenues from "./SmallApps/Nested-Menus/Data";
 const App = () => {
   return (
     <>
       {/* <SingleSelection/> */}
-      <MultipleSelection />
+      {/* <MultipleSelection /> */}
 
-      <RandomColor />
+      {/* <RandomColor /> */}
 
-      <StarRating />
+      {/* <StarRating /> */}
 
-      <ImageSlider
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
-      />
+      /> */}
 
-      <LoadMore/>
+      {/* <LoadMore/> */}
+
+      <NestedMenus   menus={DataMenues}/>
+
+
+
+
     </>
   );
 };
