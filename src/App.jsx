@@ -6,6 +6,8 @@ import ImageSlider from "./SmallApps/Image-Slider/ImageSlider";
 import LoadMore from "./SmallApps/LoadMore-Button/LoadMore";
 import NestedMenus from "./SmallApps/Nested-Menus/NestedMenus";
 import DataMenues from "./SmallApps/Nested-Menus/Data";
+import GetQRCode from "./SmallApps/QR_Code/QRCode";
+
 const App = () => {
   return (
     <>
@@ -24,7 +26,8 @@ const App = () => {
 
       {/* <LoadMore/> */}
 
-      <NestedMenus   menus={DataMenues}/>
+      {/* <NestedMenus   menus={DataMenues}/> */}
+      <GetQRCode/>
 
 
 
