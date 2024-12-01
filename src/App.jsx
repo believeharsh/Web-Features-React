@@ -7,12 +7,14 @@ import LoadMore from "./SmallApps/LoadMore-Button/LoadMore";
 import NestedMenus from "./SmallApps/Nested-Menus/NestedMenus";
 import DataMenues from "./SmallApps/Nested-Menus/Data";
 import GetQRCode from "./SmallApps/QR_Code/QRCode";
+import MyAccordainOne from "./SmallApps/Practice/MyAccordainOne";
+import MyAccordianTwo from "./SmallApps/Practice/MyAccordianTwo";
 
 const App = () => {
   return (
     <>
       {/* <SingleSelection/> */}
-      {/* <MultipleSelection /> */}
+      <MultipleSelection />
 
       {/* <RandomColor /> */}
 
@@ -27,7 +29,9 @@ const App = () => {
       {/* <LoadMore/> */}
 
       {/* <NestedMenus   menus={DataMenues}/> */}
-      <GetQRCode/>
+      {/* <GetQRCode/> */}
+      {/* <MyAccordainOne/> */}
+      {/* <MyAccordianTwo/> */}
 
 
 
