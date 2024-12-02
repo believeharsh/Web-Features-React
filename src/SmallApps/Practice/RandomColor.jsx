@@ -42,7 +42,7 @@ return Math.floor(Math.random() * length)
           </div>
         </div>
 
-        <div className="text-2xl text-black">
+        <div className="text-2xl ">
             <button>
                {colorType == "hex" ? "Hex" : "RGB"} : {color}
             </button>
