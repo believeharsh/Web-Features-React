@@ -6,7 +6,8 @@ import RandomColor from "./SmallApps/Practice/RandomColor";
 import StarRating from "./SmallApps/Practice/StarRating";
 // import ImageSlider from "./SmallApps/Image-Slider/ImageSlider";
 import ImagesSlider from "./SmallApps/Practice/ImagesSlider";
-import LoadMore from "./SmallApps/LoadMore-Button/LoadMore";
+// import LoadMore from "./SmallApps/LoadMore-Button/LoadMore";
+import LoadMoreData from "./SmallApps/Practice/LoadMoreData";
 import NestedMenus from "./SmallApps/Nested-Menus/NestedMenus";
 import DataMenues from "./SmallApps/Nested-Menus/Data";
 import GetQRCode from "./SmallApps/QR_Code/QRCode";
@@ -36,11 +37,13 @@ const App = () => {
       {/* <RandomColor/> */}
       {/* <StarRating/> */}
 
-      <ImagesSlider 
-        url={'https://picsum.photos/v2/list'}
-        limit={7}
-        page={1}
-      />
+      {/* // <ImagesSlider  */}
+      {/* //   url={'https://picsum.photos/v2/list'}
+      //   limit={7}
+      //   page={1}
+      // /> */}
+
+      <LoadMoreData/>
   
 
 
