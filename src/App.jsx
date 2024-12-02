@@ -1,6 +1,7 @@
 import SingleSelection from "./SmallApps/Accordian/SingleSelection";
 import MultipleSelection from "./SmallApps/Accordian/MultipleSelection";
-import RandomColor from "./SmallApps/Random-Color/RandomColor";
+// import RandomColor from "./SmallApps/Random-Color/RandomColor";
+import RandomColor from "./SmallApps/Practice/RandomColor";
 import StarRating from "./SmallApps/Star-Rating/StarRating";
 import ImageSlider from "./SmallApps/Image-Slider/ImageSlider";
 import LoadMore from "./SmallApps/LoadMore-Button/LoadMore";
@@ -14,7 +15,7 @@ const App = () => {
   return (
     <>
       {/* <SingleSelection/> */}
-      <MultipleSelection />
+      {/* <MultipleSelection /> */}
 
       {/* <RandomColor /> */}
 
@@ -30,8 +31,8 @@ const App = () => {
 
       {/* <NestedMenus   menus={DataMenues}/> */}
       {/* <GetQRCode/> */}
-      {/* <MyAccordainOne/> */}
-      {/* <MyAccordianTwo/> */}
+      <RandomColor/>
+  
 
 
 
