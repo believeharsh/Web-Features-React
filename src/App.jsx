@@ -34,7 +34,7 @@ const App = () => {
       {/* <LoadMore/> */}
 
       {/* <NestedMenus   menus={DataMenues}/> */}
-      {/* <GetQRCode/> */}
+      <GetQRCode/>
       {/* <RandomColor/> */}
       {/* <StarRating/> */}
 
