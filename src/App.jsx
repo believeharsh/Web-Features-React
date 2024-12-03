@@ -13,6 +13,7 @@ import DataMenues from "./SmallApps/Nested-Menus/Data";
 import GetQRCode from "./SmallApps/QR_Code/QRCode";
 import MyAccordainOne from "./SmallApps/Practice/MyAccordainOne";
 import MyAccordianTwo from "./SmallApps/Practice/MyAccordianTwo";
+import RecursiveUI from "./SmallApps/Practice/Recursive-Ui-Or-Nested-Ui/Main";
 
 const App = () => {
   return (
@@ -43,7 +44,9 @@ const App = () => {
       //   page={1}
       // /> */}
 
-      <LoadMoreData/>
+      {/* <LoadMoreData/> */}
+
+      <RecursiveUI list={DataMenues}/>
   
 
 
