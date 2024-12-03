@@ -14,6 +14,7 @@ import GetQRCode from "./SmallApps/QR_Code/QRCode";
 import MyAccordainOne from "./SmallApps/Practice/MyAccordainOne";
 import MyAccordianTwo from "./SmallApps/Practice/MyAccordianTwo";
 import RecursiveUI from "./SmallApps/Practice/Recursive-Ui-Or-Nested-Ui/Main";
+import LightDarkMode from "./SmallApps/Light-Dark-Mode/Main";
 
 const App = () => {
   return (
@@ -34,7 +35,7 @@ const App = () => {
       {/* <LoadMore/> */}
 
       {/* <NestedMenus   menus={DataMenues}/> */}
-      <GetQRCode/>
+      {/* <GetQRCode/> */}
       {/* <RandomColor/> */}
       {/* <StarRating/> */}
 
@@ -46,7 +47,9 @@ const App = () => {
 
       {/* <LoadMoreData/> */}
 
-      <RecursiveUI list={DataMenues}/>
+      {/* <RecursiveUI list={DataMenues}/> */}
+
+      <LightDarkMode/>
   
 
 
