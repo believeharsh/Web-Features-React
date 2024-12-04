@@ -16,6 +16,7 @@ import MyAccordianTwo from "./SmallApps/Practice/MyAccordianTwo";
 import RecursiveUI from "./SmallApps/Practice/Recursive-Ui-Or-Nested-Ui/Main";
 import LightDarkMode from "./SmallApps/Light-Dark-Mode/Main";
 
+
 const App = () => {
   return (
     <>
@@ -50,6 +51,10 @@ const App = () => {
       {/* <RecursiveUI list={DataMenues}/> */}
 
       <LightDarkMode/>
+
+      {/* // Light dark mode using context api with taiwind css  */}
+      {/* <LightDarkUsingContext/> */}
+      {/* <div className="text-black">Hello There</div> */}
   
 
 
