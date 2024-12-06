@@ -20,6 +20,7 @@ import CustomScrollBar from "./SmallApps/Practice/CustomScroll"
 import ParentOfTabs from "./SmallApps/CutomTabs/Parent-Of-Tabs";
 import CheckModel from "./SmallApps/Custom-Model-Popup/CheckModel";
 import CheckAdvertiseModel from "./SmallApps/Practice/Advertisement-Model-Popup/Check-Adervtise-Model";
+import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
 
 
 const App = () => {
@@ -73,7 +74,10 @@ const App = () => {
 
 
         {/* // Custom Advertisement Popup  */}
-        <CheckAdvertiseModel/>
+        {/* <CheckAdvertiseModel/> */}
+
+        {/* Github Profile finder  */}
+        <GithubProfileFinder/>
 
 
 
