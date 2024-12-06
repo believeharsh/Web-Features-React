@@ -30,7 +30,8 @@ const CustomScroll = ({ url }) => {
     const howMuchScrolled =
       document.body.scrollTop || document.documentElement.scrollTop;
     const height =
-      document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
     setScrollPercentage((howMuchScrolled / height) * 100);
   };
 

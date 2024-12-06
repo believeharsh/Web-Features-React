@@ -16,6 +16,7 @@ import MyAccordianTwo from "./SmallApps/Practice/MyAccordianTwo";
 import RecursiveUI from "./SmallApps/Practice/Recursive-Ui-Or-Nested-Ui/Main";
 import LightDarkMode from "./SmallApps/Light-Dark-Mode/Main";
 import CustomScroll from "./SmallApps/Custom-Scroll-Indecator/CustomScroll"
+import CustomScrollBar from "./SmallApps/Practice/CustomScroll"
 
 
 const App = () => {
@@ -56,7 +57,11 @@ const App = () => {
       {/* // Light dark mode using context api with taiwind css  */}
       {/* <LightDarkUsingContext/> */}
       {/* <div className="text-black">Hello There</div> */}
-        <CustomScroll url={'https://dummyjson.com/products?limit=100'}/>
+        {/* <CustomScroll url={'https://dummyjson.com/products?limit=200'}/> */}
+
+        {/* // this is practice i've done  */}
+
+        <CustomScrollBar url={'https://dummyjson.com/products?limit=200'} />
 
 
 
