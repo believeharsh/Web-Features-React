@@ -18,6 +18,8 @@ import LightDarkMode from "./SmallApps/Light-Dark-Mode/Main";
 import CustomScroll from "./SmallApps/Custom-Scroll-Indecator/CustomScroll"
 import CustomScrollBar from "./SmallApps/Practice/CustomScroll"
 import ParentOfTabs from "./SmallApps/CutomTabs/Parent-Of-Tabs";
+import CheckModel from "./SmallApps/Custom-Model-Popup/CheckModel";
+import CheckAdvertiseModel from "./SmallApps/Practice/Advertisement-Model-Popup/Check-Adervtise-Model";
 
 
 const App = () => {
@@ -64,7 +66,14 @@ const App = () => {
 
         {/* <CustomScrollBar url={'https://dummyjson.com/products?limit=200'} /> */}
 
-        <ParentOfTabs/>
+        {/* <ParentOfTabs/> */}
+
+        {/* // Custom Model Popup  */}
+        {/* <CheckModel/> */}
+
+
+        {/* // Custom Advertisement Popup  */}
+        <CheckAdvertiseModel/>
 
 
 
