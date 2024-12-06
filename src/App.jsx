@@ -17,6 +17,7 @@ import RecursiveUI from "./SmallApps/Practice/Recursive-Ui-Or-Nested-Ui/Main";
 import LightDarkMode from "./SmallApps/Light-Dark-Mode/Main";
 import CustomScroll from "./SmallApps/Custom-Scroll-Indecator/CustomScroll"
 import CustomScrollBar from "./SmallApps/Practice/CustomScroll"
+import ParentOfTabs from "./SmallApps/CutomTabs/Parent-Of-Tabs";
 
 
 const App = () => {
@@ -61,7 +62,9 @@ const App = () => {
 
         {/* // this is practice i've done  */}
 
-        <CustomScrollBar url={'https://dummyjson.com/products?limit=200'} />
+        {/* <CustomScrollBar url={'https://dummyjson.com/products?limit=200'} /> */}
+
+        <ParentOfTabs/>
 
 
 
