@@ -22,6 +22,7 @@ import CheckModel from "./SmallApps/Custom-Model-Popup/CheckModel";
 import CheckAdvertiseModel from "./SmallApps/Practice/Advertisement-Model-Popup/Check-Adervtise-Model";
 import GithubProfileFinder from "./SmallApps/Practice/Github-User-API/Index";
 import SearchAutoComplete from "./SmallApps/AutoComplete-Search/Index";
+import TicTacToe from "./SmallApps/Tic-Tac-Toe/Index";
 // import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
 
 
@@ -87,7 +88,10 @@ const App = () => {
 
 
         {/* // SerachAutoComplete feature by calling the api  */}
-        <SearchAutoComplete/> 
+        {/* <SearchAutoComplete/>  */}
+
+        {/* // Tic Tac Toe Game  */}
+        <TicTacToe/>
 
 
 
