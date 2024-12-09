@@ -24,6 +24,7 @@ import GithubProfileFinder from "./SmallApps/Practice/Github-User-API/Index";
 import SearchAutoComplete from "./SmallApps/AutoComplete-Search/Index";
 import TicTacToe from "./SmallApps/Tic-Tac-Toe/Index";
 import TicTacToePractice from "./SmallApps/Practice/Tic-TacToe/TicTacToe";
+import FeatureFlags from "./SmallApps/FlagFeature/Flag-Feature";
 // import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
 
 
@@ -97,7 +98,11 @@ const App = () => {
 
 
         {/* // Tic Tac Toe Game practice  */}
-        <TicTacToePractice/>
+        {/* <TicTacToePractice/> */}
+
+
+        {/* // FlagFeature functionality */}
+        <FeatureFlags/>
 
 
 
