@@ -23,6 +23,7 @@ import CheckAdvertiseModel from "./SmallApps/Practice/Advertisement-Model-Popup/
 import GithubProfileFinder from "./SmallApps/Practice/Github-User-API/Index";
 import SearchAutoComplete from "./SmallApps/AutoComplete-Search/Index";
 import TicTacToe from "./SmallApps/Tic-Tac-Toe/Index";
+import TicTacToePractice from "./SmallApps/Practice/Tic-TacToe/TicTacToe";
 // import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
 
 
@@ -91,7 +92,12 @@ const App = () => {
         {/* <SearchAutoComplete/>  */}
 
         {/* // Tic Tac Toe Game  */}
-        <TicTacToe/>
+        {/* <TicTacToe/> */}
+
+
+
+        {/* // Tic Tac Toe Game practice  */}
+        <TicTacToePractice/>
 
 
 

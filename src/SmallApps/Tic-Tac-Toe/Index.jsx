@@ -16,7 +16,7 @@ const TicTacToe = () => {
   const [status, setStatus] = useState("");
   const [isXTurn, setIsXTurn] = useState(true);
 
-  const getWinner = (value) => {
+  const getWinner = () => {
     const winningPatterns = [
       [0, 1, 2],
       [3, 4, 5],
