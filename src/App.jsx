@@ -28,6 +28,8 @@ import FeatureFlags from "./SmallApps/FlagFeature/Flag-Feature";
 import UseFetchHookTest from "./SmallApps/CustomHooks/UseFetch/Test";
 // import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
 
+import UseOnclickOutsideTest from "./SmallApps/CustomHooks/Use-OutSide-Click/Test";
+
 
 const App = () => {
   return (
@@ -108,9 +110,8 @@ const App = () => {
 
 
         {/* // UseFetchHookTest  */}
-        <UseFetchHookTest/>
-
-
+        {/* <UseFetchHookTest/> */}
+        <UseOnclickOutsideTest/>
 
     </>
   );
