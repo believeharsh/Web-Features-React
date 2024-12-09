@@ -25,6 +25,7 @@ import SearchAutoComplete from "./SmallApps/AutoComplete-Search/Index";
 import TicTacToe from "./SmallApps/Tic-Tac-Toe/Index";
 import TicTacToePractice from "./SmallApps/Practice/Tic-TacToe/TicTacToe";
 import FeatureFlags from "./SmallApps/FlagFeature/Flag-Feature";
+import UseFetchHookTest from "./SmallApps/CustomHooks/UseFetch/Test";
 // import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
 
 
@@ -102,7 +103,12 @@ const App = () => {
 
 
         {/* // FlagFeature functionality */}
-        <FeatureFlags/>
+        {/* <FeatureFlags/> */}
+
+
+
+        {/* // UseFetchHookTest  */}
+        <UseFetchHookTest/>
 
 
 
