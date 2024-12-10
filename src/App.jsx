@@ -28,9 +28,10 @@ import FeatureFlags from "./SmallApps/FlagFeature/Flag-Feature";
 import UseFetchHookTest from "./SmallApps/CustomHooks/UseFetch/Test";
 // import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
 
-import UseOnclickOutsideTest from "./SmallApps/CustomHooks/Use-OutSide-Click/Test";
+// import UseOnclickOutsideTest from "./SmallApps/CustomHooks/Use-OutSide-Click/Test";
 
 import UseFetchHookTestPractice from "./SmallApps/Practice/CustomHooks/Test";
+import UseOutSideClickHook from './SmallApps/Practice/CustomHooks/Use-OutSide-click/Test'
 const App = () => {
   return (
     <>
@@ -85,8 +86,11 @@ const App = () => {
 
 
       {/* // useFetch Custom Hook test here */}
-      <UseFetchHookTestPractice/>
-      
+      {/* <UseFetchHookTestPractice/>  */}
+
+
+      {/* // useOutSideclick hook test practice  */}
+      <UseOutSideClickHook/>
     </>
   );
 };
