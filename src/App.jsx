@@ -15,8 +15,8 @@ import MyAccordainOne from "./SmallApps/Practice/MyAccordainOne";
 import MyAccordianTwo from "./SmallApps/Practice/MyAccordianTwo";
 import RecursiveUI from "./SmallApps/Practice/Recursive-Ui-Or-Nested-Ui/Main";
 import LightDarkMode from "./SmallApps/Light-Dark-Mode/Main";
-import CustomScroll from "./SmallApps/Custom-Scroll-Indecator/CustomScroll"
-import CustomScrollBar from "./SmallApps/Practice/CustomScroll"
+import CustomScroll from "./SmallApps/Custom-Scroll-Indecator/CustomScroll";
+import CustomScrollBar from "./SmallApps/Practice/CustomScroll";
 import ParentOfTabs from "./SmallApps/CutomTabs/Parent-Of-Tabs";
 import CheckModel from "./SmallApps/Custom-Model-Popup/CheckModel";
 import CheckAdvertiseModel from "./SmallApps/Practice/Advertisement-Model-Popup/Check-Adervtise-Model";
@@ -30,89 +30,63 @@ import UseFetchHookTest from "./SmallApps/CustomHooks/UseFetch/Test";
 
 import UseOnclickOutsideTest from "./SmallApps/CustomHooks/Use-OutSide-Click/Test";
 
-
+import UseFetchHookTestPractice from "./SmallApps/Practice/CustomHooks/Test";
 const App = () => {
   return (
     <>
       {/* <SingleSelection/> */}
       {/* <MultipleSelection /> */}
-
       {/* <RandomColor /> */}
-
       {/* <StarRating /> */}
-
       {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
       /> */}
-
       {/* <LoadMore/> */}
-
       {/* <NestedMenus   menus={DataMenues}/> */}
       {/* <GetQRCode/> */}
       {/* <RandomColor/> */}
       {/* <StarRating/> */}
-
       {/* // <ImagesSlider  */}
       {/* //   url={'https://picsum.photos/v2/list'}
       //   limit={7}
       //   page={1}
       // /> */}
-
       {/* <LoadMoreData/> */}
-
       {/* <RecursiveUI list={DataMenues}/> */}
-
       {/* <LightDarkMode/> */}
-
       {/* // Light dark mode using context api with taiwind css  */}
       {/* <LightDarkUsingContext/> */}
       {/* <div className="text-black">Hello There</div> */}
-        {/* <CustomScroll url={'https://dummyjson.com/products?limit=200'}/> */}
-
-        {/* // this is practice i've done  */}
-
-        {/* <CustomScrollBar url={'https://dummyjson.com/products?limit=200'} /> */}
-
-        {/* <ParentOfTabs/> */}
-
-        {/* // Custom Model Popup  */}
-        {/* <CheckModel/> */}
-
-
-        {/* // Custom Advertisement Popup  */}
-        {/* <CheckAdvertiseModel/> */}
-
-        {/* Github Profile finder  */}
-        {/* <GithubProfileFinder/> */}
-
-        {/* // Github Profile finder : practice  */}
-        {/* <GithubProfileFinder/> */}
-
-
-
-        {/* // SerachAutoComplete feature by calling the api  */}
-        {/* <SearchAutoComplete/>  */}
-
-        {/* // Tic Tac Toe Game  */}
-        {/* <TicTacToe/> */}
+      {/* <CustomScroll url={'https://dummyjson.com/products?limit=200'}/> */}
+      {/* // this is practice i've done  */}
+      {/* <CustomScrollBar url={'https://dummyjson.com/products?limit=200'} /> */}
+      {/* <ParentOfTabs/> */}
+      {/* // Custom Model Popup  */}
+      {/* <CheckModel/> */}
+      {/* // Custom Advertisement Popup  */}
+      {/* <CheckAdvertiseModel/> */}
+      {/* Github Profile finder  */}
+      {/* <GithubProfileFinder/> */}
+      {/* // Github Profile finder : practice  */}
+      {/* <GithubProfileFinder/> */}
+      {/* // SerachAutoComplete feature by calling the api  */}
+      {/* <SearchAutoComplete/>  */}
+      {/* // Tic Tac Toe Game  */}
+      {/* <TicTacToe/> */}
+      {/* // Tic Tac Toe Game practice  */}
+      {/* <TicTacToePractice/> */}
+      {/* // FlagFeature functionality */}
+      {/* <FeatureFlags/> */}
+      {/* // UseFetchHookTest  */}
+      {/* <UseFetchHookTest/> */}
+      {/* <UseOnclickOutsideTest/> */}
 
 
-
-        {/* // Tic Tac Toe Game practice  */}
-        {/* <TicTacToePractice/> */}
-
-
-        {/* // FlagFeature functionality */}
-        {/* <FeatureFlags/> */}
-
-
-
-        {/* // UseFetchHookTest  */}
-        {/* <UseFetchHookTest/> */}
-        <UseOnclickOutsideTest/>
-
+      {/* // useFetch Custom Hook test here */}
+      <UseFetchHookTestPractice/>
+      
     </>
   );
 };
