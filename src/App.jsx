@@ -33,6 +33,7 @@ import UseFetchHookTest from "./SmallApps/CustomHooks/UseFetch/Test";
 import UseFetchHookTestPractice from "./SmallApps/Practice/CustomHooks/Test";
 import UseOutSideClickHook from './SmallApps/Practice/CustomHooks/Use-OutSide-click/Test'
 import ScrollToTopAndBottom from './SmallApps/Scroll-to-top-bottom/Index'
+import ScrollToAnySections from "./SmallApps/Scroll-to-top-bottom/Scroll-to-sections";
 const App = () => {
   return (
     <>
@@ -94,7 +95,10 @@ const App = () => {
       {/* <UseOutSideClickHook/> */}
 
       {/* // Scroll to top and Bottom  */}
-      <ScrollToTopAndBottom/>
+      {/* <ScrollToTopAndBottom/> */}
+
+      {/* // Scrolltoanysections  */}
+      <ScrollToAnySections/>
     </>
   );
 };
