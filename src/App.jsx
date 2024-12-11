@@ -32,6 +32,7 @@ import UseFetchHookTest from "./SmallApps/CustomHooks/UseFetch/Test";
 
 import UseFetchHookTestPractice from "./SmallApps/Practice/CustomHooks/Test";
 import UseOutSideClickHook from './SmallApps/Practice/CustomHooks/Use-OutSide-click/Test'
+import ScrollToTopAndBottom from './SmallApps/Scroll-to-top-bottom/Index'
 const App = () => {
   return (
     <>
@@ -90,7 +91,10 @@ const App = () => {
 
 
       {/* // useOutSideclick hook test practice  */}
-      <UseOutSideClickHook/>
+      {/* <UseOutSideClickHook/> */}
+
+      {/* // Scroll to top and Bottom  */}
+      <ScrollToTopAndBottom/>
     </>
   );
 };
