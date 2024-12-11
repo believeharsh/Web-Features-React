@@ -1,12 +1,12 @@
 import SingleSelection from "./SmallApps/Accordian/SingleSelection";
 import MultipleSelection from "./SmallApps/Accordian/MultipleSelection";
-// import RandomColor from "./SmallApps/Random-Color/RandomColor";
+import RandomColor from "./SmallApps/Random-Color/RandomColor";
 import RandomColor from "./SmallApps/Practice/RandomColor";
-// import StarRating from "./SmallApps/Star-Rating/StarRating";
+import StarRating from "./SmallApps/Star-Rating/StarRating";
 import StarRating from "./SmallApps/Practice/StarRating";
-// import ImageSlider from "./SmallApps/Image-Slider/ImageSlider";
+import ImageSlider from "./SmallApps/Image-Slider/ImageSlider";
 import ImagesSlider from "./SmallApps/Practice/ImagesSlider";
-// import LoadMore from "./SmallApps/LoadMore-Button/LoadMore";
+import LoadMore from "./SmallApps/LoadMore-Button/LoadMore";
 import LoadMoreData from "./SmallApps/Practice/LoadMoreData";
 import NestedMenus from "./SmallApps/Nested-Menus/NestedMenus";
 import DataMenues from "./SmallApps/Nested-Menus/Data";
@@ -26,10 +26,8 @@ import TicTacToe from "./SmallApps/Tic-Tac-Toe/Index";
 import TicTacToePractice from "./SmallApps/Practice/Tic-TacToe/TicTacToe";
 import FeatureFlags from "./SmallApps/FlagFeature/Flag-Feature";
 import UseFetchHookTest from "./SmallApps/CustomHooks/UseFetch/Test";
-// import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
-
-// import UseOnclickOutsideTest from "./SmallApps/CustomHooks/Use-OutSide-Click/Test";
-
+import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
+import UseOnclickOutsideTest from "./SmallApps/CustomHooks/Use-OutSide-Click/Test";
 import UseFetchHookTestPractice from "./SmallApps/Practice/CustomHooks/Test";
 import UseOutSideClickHook from './SmallApps/Practice/CustomHooks/Use-OutSide-click/Test'
 import ScrollToTopAndBottom from './SmallApps/Scroll-to-top-bottom/Index'
@@ -38,52 +36,93 @@ const App = () => {
   return (
     <>
       {/* <SingleSelection/> */}
+
       {/* <MultipleSelection /> */}
+
+
       {/* <RandomColor /> */}
+
+
       {/* <StarRating /> */}
+
+
       {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
       /> */}
+
       {/* <LoadMore/> */}
+
       {/* <NestedMenus   menus={DataMenues}/> */}
+
+
       {/* <GetQRCode/> */}
+
       {/* <RandomColor/> */}
+
+
       {/* <StarRating/> */}
       {/* // <ImagesSlider  */}
       {/* //   url={'https://picsum.photos/v2/list'}
       //   limit={7}
       //   page={1}
       // /> */}
+
       {/* <LoadMoreData/> */}
+
       {/* <RecursiveUI list={DataMenues}/> */}
+
+
       {/* <LightDarkMode/> */}
+
       {/* // Light dark mode using context api with taiwind css  */}
       {/* <LightDarkUsingContext/> */}
+
       {/* <div className="text-black">Hello There</div> */}
       {/* <CustomScroll url={'https://dummyjson.com/products?limit=200'}/> */}
+
       {/* // this is practice i've done  */}
+
       {/* <CustomScrollBar url={'https://dummyjson.com/products?limit=200'} /> */}
       {/* <ParentOfTabs/> */}
+
+
       {/* // Custom Model Popup  */}
       {/* <CheckModel/> */}
+
+
       {/* // Custom Advertisement Popup  */}
       {/* <CheckAdvertiseModel/> */}
+
+
       {/* Github Profile finder  */}
       {/* <GithubProfileFinder/> */}
+
+      
       {/* // Github Profile finder : practice  */}
       {/* <GithubProfileFinder/> */}
+
       {/* // SerachAutoComplete feature by calling the api  */}
       {/* <SearchAutoComplete/>  */}
+
+
       {/* // Tic Tac Toe Game  */}
       {/* <TicTacToe/> */}
+
       {/* // Tic Tac Toe Game practice  */}
       {/* <TicTacToePractice/> */}
+
+
       {/* // FlagFeature functionality */}
       {/* <FeatureFlags/> */}
+
+
       {/* // UseFetchHookTest  */}
       {/* <UseFetchHookTest/> */}
+
+
+      {/* // useOutSideClick custom hook test  */}
       {/* <UseOnclickOutsideTest/> */}
 
 
