@@ -1,9 +1,9 @@
 import SingleSelection from "./SmallApps/Accordian/SingleSelection";
 import MultipleSelection from "./SmallApps/Accordian/MultipleSelection";
 import RandomColor from "./SmallApps/Random-Color/RandomColor";
-import RandomColor from "./SmallApps/Practice/RandomColor";
+// import RandomColor from "./SmallApps/Practice/RandomColor";
 import StarRating from "./SmallApps/Star-Rating/StarRating";
-import StarRating from "./SmallApps/Practice/StarRating";
+// import StarRating from "./SmallApps/Practice/StarRating";
 import ImageSlider from "./SmallApps/Image-Slider/ImageSlider";
 import ImagesSlider from "./SmallApps/Practice/ImagesSlider";
 import LoadMore from "./SmallApps/LoadMore-Button/LoadMore";
@@ -26,12 +26,13 @@ import TicTacToe from "./SmallApps/Tic-Tac-Toe/Index";
 import TicTacToePractice from "./SmallApps/Practice/Tic-TacToe/TicTacToe";
 import FeatureFlags from "./SmallApps/FlagFeature/Flag-Feature";
 import UseFetchHookTest from "./SmallApps/CustomHooks/UseFetch/Test";
-import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
+// import GithubProfileFinder from "./SmallApps/Github-Profile-Finder/Index";
 import UseOnclickOutsideTest from "./SmallApps/CustomHooks/Use-OutSide-Click/Test";
 import UseFetchHookTestPractice from "./SmallApps/Practice/CustomHooks/Test";
 import UseOutSideClickHook from './SmallApps/Practice/CustomHooks/Use-OutSide-click/Test'
 import ScrollToTopAndBottom from './SmallApps/Scroll-to-top-bottom/Index'
 import ScrollToAnySections from "./SmallApps/Scroll-to-top-bottom/Scroll-to-sections";
+import Weather from "./SmallApps/WeatherApp/Weather";
 const App = () => {
   return (
     <>
@@ -137,7 +138,10 @@ const App = () => {
       {/* <ScrollToTopAndBottom/> */}
 
       {/* // Scrolltoanysections  */}
-      <ScrollToAnySections/>
+      {/* <ScrollToAnySections/> */}
+
+      {/* // Weather app  */}
+      <Weather/>
     </>
   );
 };
