@@ -5,12 +5,21 @@ function App() {
   const [data, setData] = useState([]);
   const [input, setInput] = useState();
   const [showResult, setShowResult] = useState(false);
+  const [cache, setCache] = useState({});
 
   const handleInputChnage = (e) => {
     setInput(e.target.value);
   };
 
   const fetchData = async () => {
+    if (!input) return;
+
+    if (cache[input]) {
+      console.log("Cached Input", input);
+      setData(cache[input]);
+      return;
+    }
+
     console.log("Api Call  ", input);
     try {
       const res = await fetch(
@@ -22,17 +31,19 @@ function App() {
       const json = await res.json();
       console.log(json);
       setData(json.recipes || []);
+      setCache((prev) => ({ ...prev, [input]: json.recipes }));
     } catch (error) {
       console.error("Error fetching data:", error);
     }
   };
 
   useEffect(() => {
+    if (!input) {
+      setData([]);
+      return;
+    }
     const timer = setTimeout(fetchData, 300);
-
-    return () => {
-      clearTimeout(timer);
-    };
+    return () => clearTimeout(timer);
   }, [input]);
 
   return (
