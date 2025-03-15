@@ -1,0 +1,44 @@
+[
+    {
+        "id" : 1,
+        "name" : "Public", 
+        "isFolder" : false
+
+    },
+    {
+        "id" : 2, 
+        "name" : "src", 
+        "isFolder" : true, 
+        "Children" : [
+            {
+                "id" : 3, 
+                "name" : "Components", 
+                "ifFolder" : true, 
+                "children" : [
+                    {
+                        "id" : 4, 
+                        "name" : "BtnComponents" , 
+                        "isFolder" : false
+
+                    }
+                ]
+            },
+            {
+                "id" : 5, 
+                "name" : "pages", 
+                "isFolder" : false
+            },
+
+            {
+                "id" : 6, 
+                "name" : "Constants", 
+                "isFolder" : false
+            }
+        ]
+    },
+    {
+        "id" : 7, 
+        "name" : "packages.json", 
+        "isFolder" : false
+    }
+]

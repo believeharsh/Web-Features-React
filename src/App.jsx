@@ -33,6 +33,7 @@ import UseOutSideClickHook from './SmallApps/Practice/CustomHooks/Use-OutSide-cl
 import ScrollToTopAndBottom from './SmallApps/Scroll-to-top-bottom/Index'
 import ScrollToAnySections from "./SmallApps/Scroll-to-top-bottom/Scroll-to-sections";
 import Weather from "./SmallApps/WeatherApp/Weather";
+import NestedFolders from "./Machine-Coding/Folder-Structure";
 const App = () => {
   return (
     <>
@@ -141,7 +142,12 @@ const App = () => {
       {/* <ScrollToAnySections/> */}
 
       {/* // Weather app  */}
-      <Weather/>
+      {/* <Weather/> */}
+
+
+        <NestedFolders/>
+
+
     </>
   );
 };
