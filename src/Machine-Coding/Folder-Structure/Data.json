@@ -37,6 +37,31 @@
         ]
     },
     {
+      "id" : 8, 
+      "name" : "Pages", 
+      "isFolder" : true,
+      "Children" : [
+        {
+            "id" : 9, 
+            "name" : "Home Page", 
+            "isFolder" : false
+        }, 
+        {
+            "id" : 10, 
+            "name" : "Profile Page", 
+            "isFolder" : false
+        },
+        {
+            "id" : 11, 
+            "name" : "Notification Page", 
+            "isFolder" : false
+        }
+      ]
+    },
+    {
+
+    },
+    {
         "id" : 7, 
         "name" : "packages.json", 
         "isFolder" : false
