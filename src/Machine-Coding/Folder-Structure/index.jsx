@@ -2,26 +2,26 @@ import React, { useState } from "react";
 import Data from "./Data.json";
 
 const Folder = ({ item }) => {
-    const [isOpen, setIsOpen] = useState(false) ; 
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <>
             <div className="">
                 {
                     item.isFolder ?
                         <div className=""
-                        onClick={() => setIsOpen(prev => !prev)}
+                            onClick={() => setIsOpen(!isOpen)}
                         >
                             📂 {item.name}
                         </div>
                         : <div className="">{item.name}</div>
                 }
-                {
-                    item.children && (
-                        <div className="">
-                            <Folder item={item.children} />
-                        </div>
-                    )
-                }
+                {isOpen && item.Children && (
+                    <div className="ml-4">
+                        {item.Children.map((child) => (
+                            <Folder key={child.id} item={child} />
+                        ))}
+                    </div>
+                )}
             </div>
         </>
     )
@@ -33,7 +33,7 @@ const NestedFolders = () => {
             <div className="">
                 {
                     Data.map((node) => (
-                        <Folder key={node.id} item={node}/>
+                        <Folder key={node.id} item={node} />
                     ))
                 }
 
@@ -42,4 +42,4 @@ const NestedFolders = () => {
     )
 }
 
-export default NestedFolders ; 
+export default NestedFolders; 

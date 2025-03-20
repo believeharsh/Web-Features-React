@@ -13,8 +13,8 @@
             {
                 "id" : 3, 
                 "name" : "Components", 
-                "ifFolder" : true, 
-                "children" : [
+                "isFolder" : true, 
+                "Children" : [
                     {
                         "id" : 4, 
                         "name" : "BtnComponents" , 
