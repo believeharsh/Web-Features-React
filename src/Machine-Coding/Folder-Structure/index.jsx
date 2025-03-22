@@ -98,7 +98,7 @@ const NestedFolders = () => {
                             ...(node.Children || []),
                             {
                                 id: uuidv4(),
-                                name,
+                                name : Name, 
                                 isFolder: true,
                                 Children: [],
                             },
