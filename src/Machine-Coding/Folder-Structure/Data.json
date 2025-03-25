@@ -59,9 +59,6 @@
       ]
     },
     {
-
-    },
-    {
         "id" : 7, 
         "name" : "packages.json", 
         "isFolder" : false

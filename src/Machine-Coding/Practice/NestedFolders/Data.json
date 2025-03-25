@@ -1,0 +1,55 @@
+[
+    {
+        "id" : 1, 
+        "name" : "Public", 
+        "isFolder" : true, 
+        "children" : [
+            {
+                "id" : 2, 
+                "name" : "vite.svg", 
+                "isFolder" : false
+            }, 
+            {
+                "id" : 3, 
+                "name" : "index.html", 
+                "isFolder" : false
+            }
+        ]
+    },
+    {
+        "id" : 3, 
+        "name" : "src", 
+        "isFolder" : true, 
+        "children" : [
+            {
+                "id" : 4, 
+                "name" : "App.js", 
+                "isFolder" : false
+
+            },
+            {
+                "id" : 5, 
+                "name" : "Components", 
+                "isFolder" : true,
+                "children" : [
+                    {
+                        "id" : 6, 
+                        "name" : "navbar Component", 
+                        "isFolder" : false
+                    }
+                ]
+            },
+            {
+                "id" : 7, 
+                "name" : "Pages" , 
+                "isFolder" : false
+            }
+        ]
+    },
+    {
+        "id" : 8, 
+        "name" : "packages.json", 
+        "isFolder" :  false
+
+    }
+]

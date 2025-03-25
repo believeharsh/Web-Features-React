@@ -34,6 +34,7 @@ import ScrollToTopAndBottom from './SmallApps/Scroll-to-top-bottom/Index'
 import ScrollToAnySections from "./SmallApps/Scroll-to-top-bottom/Scroll-to-sections";
 import Weather from "./SmallApps/WeatherApp/Weather";
 import NestedFolders from "./Machine-Coding/Folder-Structure";
+import PracticeNestedFolder from "./Machine-Coding/Practice/NestedFolders";
 const App = () => {
   return (
     <>
@@ -145,7 +146,10 @@ const App = () => {
       {/* <Weather/> */}
 
 
-        <NestedFolders/>
+        {/* <NestedFolders/> */}
+
+        <PracticeNestedFolder/>
+
 
 
     </>
