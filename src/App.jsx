@@ -35,6 +35,7 @@ import ScrollToAnySections from "./SmallApps/Scroll-to-top-bottom/Scroll-to-sect
 import Weather from "./SmallApps/WeatherApp/Weather";
 import NestedFolders from "./Machine-Coding/Folder-Structure";
 import PracticeNestedFolder from "./Machine-Coding/Practice/NestedFolders";
+import OTPVerification from "./Machine-Coding/OTP-Verified/Index";
 const App = () => {
   return (
     <>
@@ -148,7 +149,11 @@ const App = () => {
 
         {/* <NestedFolders/> */}
 
-        <PracticeNestedFolder/>
+        {/* <PracticeNestedFolder/> */}
+
+
+
+        <OTPVerification/>
 
 
 
