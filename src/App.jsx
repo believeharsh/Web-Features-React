@@ -36,6 +36,7 @@ import Weather from "./SmallApps/WeatherApp/Weather";
 import NestedFolders from "./Machine-Coding/Folder-Structure";
 import PracticeNestedFolder from "./Machine-Coding/Practice/NestedFolders";
 import OTPVerification from "./Machine-Coding/OTP-Verified/Index";
+import Todos from "./Redux-ToolKit/Todos";
 const App = () => {
   return (
     <>
@@ -153,7 +154,8 @@ const App = () => {
 
 
 
-        <OTPVerification/>
+      {/* <OTPVerification/> */}
+        <Todos/>
 
 
 
