@@ -37,6 +37,7 @@ import NestedFolders from "./Machine-Coding/Folder-Structure";
 import PracticeNestedFolder from "./Machine-Coding/Practice/NestedFolders";
 import OTPVerification from "./Machine-Coding/OTP-Verified/Index";
 import Todos from "./Redux-ToolKit/Todos";
+import TopicSlider from "./Machine-Coding/Topics-Slider/Index.jsx";
 const App = () => {
   return (
     <>
@@ -155,7 +156,9 @@ const App = () => {
 
 
       {/* <OTPVerification/> */}
-        <Todos/>
+        {/* <Todos/> */}
+
+        <TopicSlider onTopicClick={(topic) => console.log("Search:", topic)} />
 
 
 
