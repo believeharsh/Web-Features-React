@@ -38,6 +38,7 @@ import PracticeNestedFolder from "./Machine-Coding/Practice/NestedFolders";
 import OTPVerification from "./Machine-Coding/OTP-Verified/Index";
 import Todos from "./Redux-ToolKit/Todos";
 import TopicSlider from "./Machine-Coding/Topics-Slider/Index.jsx";
+import ScrollCircle from "./Machine-Coding/Scroll-percentages-Calculator/Index.jsx";
 const App = () => {
   return (
     <>
@@ -105,7 +106,7 @@ const App = () => {
       {/* Github Profile finder  */}
       {/* <GithubProfileFinder/> */}
 
-      
+
       {/* // Github Profile finder : practice  */}
       {/* <GithubProfileFinder/> */}
 
@@ -149,16 +150,19 @@ const App = () => {
       {/* <Weather/> */}
 
 
-        {/* <NestedFolders/> */}
+      {/* <NestedFolders/> */}
 
-        {/* <PracticeNestedFolder/> */}
+      {/* <PracticeNestedFolder/> */}
 
 
 
       {/* <OTPVerification/> */}
-        {/* <Todos/> */}
+      {/* <Todos/> */}
 
-        <TopicSlider onTopicClick={(topic) => console.log("Search:", topic)} />
+      {/* <TopicSlider onTopicClick={(topic) => console.log("Search:", topic)} /> */}
+
+
+      <ScrollCircle />
 
 
 
